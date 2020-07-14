@@ -1,0 +1,92 @@
+{
+    "Token":"7517ec92b61a1d2e124a7f36dc10c280c7955f16",
+    "images_path":"http://0.0.0.0:90/MLMobileDjango/images/new_images/",
+    "title_logo":"Welcome To Djs Mobile Shopee",
+
+    "sliding_images": [
+        {
+            "id":20,
+            "type":"MI A3",
+            "image":"xiomi_mi_a_3.jpeg"
+        },
+        {
+            "id":60,
+            "type":"V15",
+            "image":"vivo_v_15.jpeg"
+        },
+        {
+            "id":9,
+            "type":"J 6",
+            "image":"samsung_j_6.jpeg"
+        }
+    ],
+
+    "options":
+    [
+        {   "name":"brands",
+             "values":["None","Samsung","Xiomi","Vivo","Oppo"]
+        },
+        {   "name":"fc",
+            "values":["None","5","8","13","13+5","13+2","12+8+5","13+8+8+5","13+5+5","16+5","24+16","32+8+5","25+5+8","40+8+2","48+5","12+5","12+2","48+8+2","48+13+8","16+8+2","48+8+5","13+8+2"]
+        },
+        {   "name":"rc",
+            "values":["None","5","8","13","13+5","13+2","12+8+5","13+8+8+5","13+5+5","16+5","24+16","32+8+5","25+5+8","40+8+2","48+5","12+5","12+2","48+8+2","48+13+8","16+8+2","48+8+5","13+8+2"]
+        },
+        {   "name":"rams",
+            "values":["None","1","1.5","2","3","4","6","8"]
+        },
+        {   "name":"roms",
+            "values":["None","8","16","32","64","128"]
+        },
+        {   "name":"batteries",
+            "values":["None","3400","5000","3000","2600","4000","3500","3700","4500","4030","3010","3080","5570","4100","3315","3260","3225"]
+        },
+        {   "name":"androids",
+            "values":["None","9.0","8.7","8.1","8.0","7.1","7.0","6.0","5.1"]
+        }
+    
+    ],
+    "ads":[
+        {
+            "id":6,
+            "image":"samsung_on_5_pro.jpeg",
+            "type":"On 5 Pro"
+        },
+        {
+            "id":10,
+            "image":"samsung_m_10_2gb.jpeg",
+            "type":"M 10"
+        },
+        {
+            "id":21,
+            "image":"xiomi_redmi_note_7_pro.jpeg",
+            "type":"Redmi Note 7 pro"
+        },
+        {
+            "id":28,
+            "image":"xiomi_redmi_6a.jpeg",
+            "type":"Redmi 6A"
+        },
+        {
+            "id":40,
+            "image":"vivo_v_17_pro.jpeg",
+            "type":"V17 Pro"
+        },
+        {
+            "id":43,
+            "image":"vivo_v_15_pro.jpeg",
+            "type":"V15 Pro"
+        },
+        {
+            "id":53,
+            "image":"vivo_y_91.jpeg",
+            "type":"Y91 3GB Ram"
+        },
+        {
+            "id":23,
+            "image":"xiomi_mi_a2.jpeg",
+            "type":"MI A2 (MI 6X)"
+        }
+    
+    ]
+}

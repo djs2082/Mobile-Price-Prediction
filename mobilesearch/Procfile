@@ -1,0 +1,1 @@
+web: gunicorn mobilesearch.wsgi --log-file -

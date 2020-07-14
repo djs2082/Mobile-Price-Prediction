@@ -1,0 +1,19 @@
+version: '3'
+
+services: 
+  apache:
+    build: .
+    container_name: apache
+    volumes: 
+      - .:/var/www/html/MlMobileDjango
+    ports:
+      - "90:80"
+
+  django:
+    build: ./mobilesearch
+    command: bash -c "python3 manage.py makemigrations && python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
+    container_name: django_mobile
+    volumes:
+      - ./mobilesearch:/var/www/html/MlMobileDjango/mobilesearch
+    ports:
+      - "9000:8000"    
